@@ -2,14 +2,136 @@ body {
   font-size: 0.875rem;
 }
 
+h1,
+h2,
+h3,
+p {
+  font-family: "Lato", "Open Sans", sans-serif;
+}
+
 .list-group {
   text-align: center;
 }
 
+.list-group-item a {
+  color: #37474f;
+}
+.list-group-item:hover > a {
+  color: #ff5722;
+}
+
+.sidebar-sticky {
+  padding-top: 1rem;
+  top: 48px; /* Height of navbar */
+}
+
 .aboutSection {
+  text-align: center;
+}
+.genreSection {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.genreSection p {
+  font-weight: bold;
+}
+
+.genreSection h4 {
+  font-size: 3rem;
+}
+
+.genreSection .col-3:hover > h4 {
+  color: #ff5722;
+}
+
+/* .colorSet1,
+.colorSet3 {
+  animation: colorset 20s infinite;
+  -webkit-animation: colorset 20s infinite;
+} */
+
+/* @keyframes colorset {
+  0% {
+    background: #f9fbe7;
+  }
+  25% {
+    background: #e8f5e9;
+  }
+  50% {
+    background: #e3f2fd;
+  }
+  75% {
+    background: #fafafa;
+  }
+  100% {
+    background: #f3e5f5;
+  }
+}
+
+@-webkit-keyframes colorset /* Safari and Chrome - necessary duplicate */
+/* 0% {
+    background: #f9fbe7;
+  }
+  25% {
+    background: #e8f5e9;
+  }
+  50% {
+    background: #e3f2fd;
+  }
+  75% {
+    background: #fafafa;
+  }
+  100% {
+    background: #f3e5f5;
+  } */
+
+/* .colorSet2,
+.colorSet4 {
+  animation: colorchange 20s infinite; /* animation-name followed by duration in seconds*/
+/* you could also use milliseconds (ms) or something like 2.5s */
+/* -webkit-animation: colorchange 20s infinite; /* Chrome and Safari */
+
+/* 
+@keyframes colorchange {
+  0% {
+    background: #f3e5f5;
+  }
+  25% {
+    background: #e3f2fd;
+  }
+  50% {
+    background: #e8f5e9;
+  }
+  75% {
+    background: #fafafa;
+  }
+  100% {
+    background: #f9fbe7;
+  }
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+/* 0% {
+    background: #f3e5f5;
+  }
+  25% {
+    background: #e3f2fd;
+  }
+  50% {
+    background: #e8f5e9;
+  }
+  75% {
+    background: #fafafa;
+  }
+  100% {
+    background: #f9fbe7;
+  }
+}  */
+
+.card {
+  background: #eceff1;
 }
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

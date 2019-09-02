@@ -29,13 +29,13 @@ const Sidebar = () => {
             <li className="nav-item">
               <a className="nav-link" href="/backendframeworks">
                 <span data-feather="users"></span>
-                Back End Frameworks
+                Back-End
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/frontendframeworks">
                 <span data-feather="bar-chart-2"></span>
-                Front End Frameworks
+                Front-End
               </a>
             </li>
             <li className="nav-item">
