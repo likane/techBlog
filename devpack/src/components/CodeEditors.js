@@ -50,6 +50,11 @@ const CodeEditors = () => {
                     Lighttable
                   </a>
                 </li>
+                <li className="list-group-item list-group-item-action">
+                  <a href="http://bluegriffon.org/" target="_blank">
+                    BlueGriffon
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="col-sm-12 col-md-6 ">
@@ -93,11 +98,6 @@ const CodeEditors = () => {
                 <li className="list-group-item list-group-item-action">
                   <a href="https://wiki.gnome.org/Apps/Gedit" target="_blank">
                     Gedit
-                  </a>
-                </li>
-                <li className="list-group-item list-group-item-action">
-                  <a href="http://bluegriffon.org/" target="_blank">
-                    BlueGriffon
                   </a>
                 </li>
               </ul>
