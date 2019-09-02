@@ -1,0 +1,27 @@
+body {
+  font-size: 0.875rem;
+}
+
+.list-group {
+  text-align: center;
+}
+
+.aboutSection {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url("https://placem.at/things"); */
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 760px) {
+  .list-group {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+}

@@ -6,7 +6,7 @@ import Landing from "./components/layout/Landing";
 import Sidebar from "./components/layout/Sidebar";
 import CodeEditors from "./components/CodeEditors";
 
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 // import "./App.css";
 
 import "./styles/app.css";

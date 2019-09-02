@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
-import "../styles/app.css";
+// import "../styles/app.css";
+import "../styles/list.css";
 
 const CodeEditors = () => {
   return (
@@ -15,38 +16,89 @@ const CodeEditors = () => {
             <div className="col-sm-12 col-md-6 ">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item list-group-item-action">
-                  Cras justo odio
+                  <a href="https://notepad-plus-plus.org/" target="_blank">
+                    Notepad ++
+                  </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  Dapibus ac facilisis in
+                  <a href="https://atom.io/" target="_blank">
+                    Atom
+                  </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  Morbi leo risus
+                  <a href="https://code.visualstudio.com/" target="_blank">
+                    Visual Studio Code
+                  </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  Porta ac consectetur ac
+                  <a href="http://brackets.io/" target="_blank">
+                    Brackets
+                  </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  Vestibulum at eros
+                  <a href="http://www.jedit.org/" target="_blank">
+                    Jedit
+                  </a>
+                </li>
+                <li className="list-group-item list-group-item-action">
+                  <a href="https://macromates.com/" target="_blank">
+                    TextMate
+                  </a>
+                </li>
+                <li className="list-group-item list-group-item-action">
+                  <a href="http://lighttable.com/" target="_blank">
+                    Lighttable
+                  </a>
                 </li>
               </ul>
             </div>
             <div className="col-sm-12 col-md-6 ">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item list-group-item-action">
-                  Cras justo odio
+                  <a href="https://netbeans.org/" target="_blank">
+                    Netbeans
+                  </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  Dapibus ac facilisis in
+                  <a
+                    href="http://bluefish.openoffice.nl/index.html"
+                    target="_blank"
+                  >
+                    Bluefish
+                  </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  Morbi leo risus
+                  <a href="https://www.vim.org/" target="_blank">
+                    Vim
+                  </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  Porta ac consectetur ac
+                  <a href="https://www.geany.org/" target="_blank">
+                    Geany
+                  </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  Vestibulum at eros
+                  <a
+                    href="https://www.activestate.com/products/komodo-edit/"
+                    target="_blank"
+                  >
+                    komodo Edit
+                  </a>
+                </li>
+                <li className="list-group-item list-group-item-action">
+                  <a href="https://www.gnu.org/software/emacs/" target="_blank">
+                    Emacs
+                  </a>
+                </li>
+                <li className="list-group-item list-group-item-action">
+                  <a href="https://wiki.gnome.org/Apps/Gedit" target="_blank">
+                    Gedit
+                  </a>
+                </li>
+                <li className="list-group-item list-group-item-action">
+                  <a href="http://bluegriffon.org/" target="_blank">
+                    BlueGriffon
+                  </a>
                 </li>
               </ul>
             </div>
