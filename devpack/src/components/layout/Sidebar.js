@@ -38,7 +38,8 @@ const Sidebar = () => {
                 Front-End
               </a>
             </li>
-            <li className="nav-item">
+          </ul>
+          {/* <li className="nav-item">
               <a className="nav-link" href="packagemanagers">
                 <span data-feather="layers"></span>
                 Package Managers
@@ -123,7 +124,7 @@ const Sidebar = () => {
             <a className="d-flex align-items-center text-muted" href="#">
               <span data-feather="plus-circle"></span>
             </a>
-          </h6>
+          </h6> */}
           {/* <ul className="nav flex-column mb-2">
             <li className="nav-item">
               <a className="nav-link" href="npm">

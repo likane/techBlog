@@ -7,7 +7,7 @@ const TopNav = () => {
     <Fragment>
       <nav className="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
         <a className="navbar-brand col-sm-3 col-md-2 mr-0" href="/">
-          DevPack
+          codeShelf
         </a>
         <button
           className="navbar-toggler"
@@ -28,30 +28,30 @@ const TopNav = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/codeeditors">
                 Code Editors
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/ide">
                 IDE's
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/frontendframeworks">
                 Front-End
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/backendframeworks">
                 Back-End
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#">
                 Wordpress
               </a>
-            </li>
+            </li> */}
             {/* <li className="nav-item">
               <a className="nav-link disabled" href="#">
                 Disabled
