@@ -9,6 +9,7 @@ import CodeEditors from "./components/CodeEditors";
 import Ide from "./components/Ide";
 import Frontend from "./components/Frontendframeworks";
 import Backend from "./components/Backendframeworks";
+import PackageManagers from "./components/PackageManagers";
 
 // import logo from "./logo.svg";
 // import "./App.css";
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/ide" component={Ide} />
           <Route exact path="/frontendframeworks" component={Frontend} />
           <Route exact path="/backendframeworks" component={Backend} />
+          <Route exact path="/packagemanagers" component={PackageManagers} />
           {/*<Route exact path="/Area" component={Area} />
           <Route exact path="/weight" component={Weight} /> */}
         </Switch>

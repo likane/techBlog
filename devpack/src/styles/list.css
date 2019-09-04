@@ -27,15 +27,18 @@ p {
 
 .aboutSection {
   text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 .detailsSection {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
-.detailsSection h6 {
+/* .detailsSection h6 {
   font-weight: bold;
-}
+} */
 
 .detailsSection p {
   color: #455a64;

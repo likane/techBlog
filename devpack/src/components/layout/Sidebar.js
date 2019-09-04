@@ -38,14 +38,15 @@ const Sidebar = () => {
                 Front-End
               </a>
             </li>
-          </ul>
-          {/* <li className="nav-item">
+
+            <li className="nav-item">
               <a className="nav-link" href="packagemanagers">
                 <span data-feather="layers"></span>
                 Package Managers
               </a>
             </li>
-            <li className="nav-item">
+          </ul>
+          {/*  <li className="nav-item">
               <a className="nav-link" href="npm">
                 <span data-feather="file-text"></span>
                 NPM

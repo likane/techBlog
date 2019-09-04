@@ -47,11 +47,11 @@ const TopNav = () => {
                 Back-End
               </a>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="#">
-                Wordpress
+            <li className="nav-item">
+              <a className="nav-link" href="/packagemanagers">
+                Package Managers
               </a>
-            </li> */}
+            </li>
             {/* <li className="nav-item">
               <a className="nav-link disabled" href="#">
                 Disabled
