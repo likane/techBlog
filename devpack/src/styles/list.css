@@ -28,6 +28,18 @@ p {
 .aboutSection {
   text-align: center;
 }
+
+.detailsSection {
+  text-align: center;
+}
+
+.detailsSection h6 {
+  font-weight: bold;
+}
+
+.detailsSection p {
+  color: #455a64;
+}
 .genreSection {
   text-align: center;
   padding-top: 3rem;

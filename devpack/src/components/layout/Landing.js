@@ -23,9 +23,26 @@ const Landing = () => {
             <div class="col-12">
               <h4>More Coding, Less Searching.</h4>
               <h6>
-                Setting up your environment is half the battle. Let's make this
-                step a little easier.{" "}
+                Setting up your environment is half the battle. Let's it a
+                little easier.{" "}
               </h6>
+            </div>
+          </div>
+
+          <div className="row detailsSection">
+            <div className="col-6">
+              <h6>Made with developers in mind.</h6>
+              <p>
+                codeShelf hopes to collect notable tools and resources for easy
+                discovery
+              </p>
+            </div>
+            <div className="col-6">
+              <h6>Used by everyone.</h6>
+              <p>
+                Learning to code? Curious what tools us developer's like to use?
+                codeShelf is for you too.
+              </p>
             </div>
           </div>
 

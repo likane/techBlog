@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ReactGA from "react-ga";
 //<Kane Development/>
 import TopNav from "./components/layout/TopNav";
 import Landing from "./components/layout/Landing";
@@ -13,6 +14,11 @@ import Backend from "./components/Backendframeworks";
 // import "./App.css";
 
 import "./styles/app.css";
+
+const trackingId = "UA-146619496-2";
+
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
