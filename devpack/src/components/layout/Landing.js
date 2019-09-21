@@ -23,7 +23,7 @@ const Landing = () => {
             <div class="col-12">
               <h4>More Coding, Less Searching.</h4>
               <h6>
-                Setting up your environment is half the battle. Let's it a
+                Setting up your environment is half the battle. Let's make it a
                 little easier.{" "}
               </h6>
             </div>

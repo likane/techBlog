@@ -3,13 +3,13 @@ import React, { Fragment } from "react";
 // import "../styles/app.css";
 import "../styles/list.css";
 
-const Npm = () => {
+const Wordpress = () => {
   return (
     <Fragment>
       <div className="row">
         <main role="main" className="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
           <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-            <h1 className="h2">IDE's</h1>
+            <h1 className="h2">Wordpress</h1>
           </div>
 
           <div className="row">
@@ -17,30 +17,27 @@ const Npm = () => {
               <ul className="list-group list-group-flush">
                 <li className="list-group-item list-group-item-action">
                   <a
-                    href="https://www.npmjs.com/package/request-promise"
+                    href="https://www.wpbeginner.com/beginners-guide/how-to-install-a-wordpress-theme/"
                     target="_blank"
                   >
-                    Request Promise
+                    How to Install A Wordpress Theme
                   </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  <a
-                    href="https://www.npmjs.com/package/mongojs"
-                    target="_blank"
-                  >
-                    Mongojs
+                  <a href="http://wptest.io/" target="_blank">
+                    Wptest
                   </a>
                 </li>
                 <li className="list-group-item list-group-item-action">
-                  <a href="https://nodemon.io/" target="_blank">
-                    Nodemon
+                  <a href="https://jointswp.com/" target="_blank">
+                    Jointswp
                   </a>
                 </li>
-                {/* <li className="list-group-item list-group-item-action">
-                  <a href="http://www.aptana.com/index.html" target="_blank">
-                    Aptana
+                <li className="list-group-item list-group-item-action">
+                  <a href="https://ionicons.com/" target="_blank">
+                    Ionicons
                   </a>
-                </li> */}
+                </li>
                 {/* <li className="list-group-item list-group-item-action">
                   <a href="http://www.jedit.org/" target="_blank">
                     Jedit
@@ -66,21 +63,15 @@ const Npm = () => {
             <div className="col-sm-12 col-md-6 ">
               <ul className="list-group list-group-flush">
                 <li className="list-group-item list-group-item-action">
-                  <a
-                    href="https://www.npmjs.com/package/react-dom"
-                    target="_blank"
-                  >
-                    react-dom
+                  <a href="https://serverpress.com/" target="_blank">
+                    Serverpress
                   </a>
                 </li>
-                <li className="list-group-item list-group-item-action">
-                  <a
-                    href="https://www.npmjs.com/package/@fortawesome/react-fontawesome#installation"
-                    target="_blank"
-                  >
-                    FontAwesome
+                {/* <li className="list-group-item list-group-item-action">
+                  <a href="https://www.eclipse.org/" target="_blank">
+                    Eclipse
                   </a>
-                </li>
+                </li> */}
                 {/* <li className="list-group-item list-group-item-action">
                   <a href="https://www.vim.org/" target="_blank">
                     Vim
@@ -118,4 +109,4 @@ const Npm = () => {
   );
 };
 
-export default Npm;
+export default Wordpress;
